@@ -1,0 +1,41 @@
+body{
+display: grid;
+grid-template-areas:
+ "cabeca cabeca cabeca"
+ "secundario principal principal"
+ "rodape rodape rodape";
+grid-template-rows: 100px auto auto;
+grid-template-columns: auto;
+}
+
+header{
+    background-color:darkgrey;
+    text-align: center;
+    grid-area: cabeça;
+ }
+aside{
+    background-color:grey;
+    text-align: center;
+    grid-area: secundario;
+}
+main{
+    background-color: darkslategrey;
+    grid-area: principal;
+}
+ 
+footer{
+    background-color:whitesmoke;
+    grid-area: rodape;
+}
+
+@media only screen and (max-width: 1000px) {
+    body{
+        grid-template-areas:
+        "cabeça"
+        "secundario"
+        "principal"
+        "rodape";
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+}
