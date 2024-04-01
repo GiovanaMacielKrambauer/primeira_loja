@@ -2,11 +2,11 @@ body{
 display: grid;
 gap: 15px; 
 grid-template-areas:
-"cabeca cabeca cabeca"
-"secundario principal principal"
-"rodape rodape rodape";
+"cabe cabe cabe"
+"secu prin prin"
+"roda roda roda";
 grid-template-columns: auto; 
-grid-template-rows: 100px auto auto auto;
+grid-template-rows: auto auto auto auto;
 }
 
 header{
@@ -14,11 +14,11 @@ header{
     background-color:darkgrey;
     text-align: center;
     grid-area: cabeça;
- }
+}
 aside{
-    background-color: darkgrey
-    text align: center;
-    grid-area: secundario;
+    background-color: blue; 
+    text-align: center
+    grid-area: cabeça;
 }
 
 main{
