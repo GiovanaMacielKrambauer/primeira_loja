@@ -10,17 +10,10 @@ grid-template-rows: auto auto auto auto;
 }
 
 header{
-
     background-color:darkgrey;
     text-align: center;
     grid-area: cabeça;
 }
-aside{
-    background-color: blue; 
-    text-align: center
-    grid-area: cabeça;
-}
-
 main{
     background-color: darkslategrey;
     grid-area: principal;
@@ -39,6 +32,6 @@ footer{
        "principal"
        "rodape";
        grid-template-columns: auto;
-       grid-template-rows: auto auto auto;
+       grid-template-rows: auto 200px auto auto;
     }
 }
