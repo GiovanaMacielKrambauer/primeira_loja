@@ -3,26 +3,27 @@ body{
     grid-template-areas:
     "cabe cabe"
     "secu prin"
-    "roda roda"
+    "roda roda";
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr 3fr;
 }
 
 
 header{
-    background-color: white
+    background-color: darkslategrey;
     grid-area: cabe;
+    
 }
 aside{
-    background-color: grey 
+    background-color: grey;
     grid-area: secu;
 }
 main{
-    background-color: darkgrey
+    background-color: darkgrey;
     grid-area: prin;
 }
 footer{
-   background-color: darkcyan
+   background-color: darkcyan;
    grid-area: roda;
 }
 
@@ -34,6 +35,6 @@ footer{
         "prin"
         "roda";
         grid-template-rows: auto auto auto auto;
-        grid-template-columns: 1fr:
+        grid-template-columns: 1fr 2fr;
     }
 }
