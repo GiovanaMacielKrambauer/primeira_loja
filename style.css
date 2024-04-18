@@ -17,12 +17,12 @@ main img{
 
 }
 header{
-    background-color: rgb(22, 54, 95);
+    background-color: rgb(9, 35, 70);
     grid-area: cabe;
     
 }
 aside{
-    background-color: rgba(36, 57, 126, 0.582);
+    background-color: rgb(37, 77, 163);
     grid-area: secu;
 }
 main{
@@ -30,7 +30,7 @@ main{
     grid-area: prin;
 }
 footer{
-   background-color: darkcyan;
+   background-color: rgba(51, 49, 49, 0.719);
    grid-area: roda;
 }
 
@@ -54,7 +54,7 @@ footer{
 .card{
     display: flex;  
     border-radius: 5px;
-    background-color: rgb(244, 247, 246);
+    background-color: rgb(255, 255, 255);
     width: 370px;
     height: 500px;
     flex-direction: column;
@@ -64,7 +64,7 @@ footer{
     transition: 0.8s;
 }
 .card:hover{
-    background-color:rgb(243, 243, 243)
+    background-color: aliceblue;
 }
 
 .card a{
@@ -75,15 +75,40 @@ footer{
     width: 160px;
     text-align: center;
     text-decoration: none;
-    color: azure;
+    color: rgb(12, 81, 109);
     transition: 0.8s;
 }
 .card a:hover{
-    background-color:rgb(175, 175, 175)
+    background-color:rgb(243, 243, 243);
 }
 
+.card b{
+    border-radius: 40px;
+    background-color: rgb(224, 215, 215);
+    width: 370px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 50px;
+    transition: 0.8s;
+}
+.card b:hover{
+    background-color:rgb(243, 243, 243);
+}
 
-
-
-
+.card c{
+    border-radius: 40px;
+    background-color: rgb(224, 215, 215);
+    width: 370px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 50px;
+    transition: 0.8s;
+}
+.card c:hover{
+    background-color: rgb(243, 243, 243);
+}
 
