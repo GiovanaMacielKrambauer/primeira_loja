@@ -198,3 +198,31 @@ footer{
 .card i:hover{
     background-color: rgb(243, 243, 243);
 }
+.card j{
+    border-radius: 40px;
+    background-color: rgb(243, 243, 243);
+    width: 370px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+.card j:hover{
+    background-color: rgb(243, 243, 243);
+}
+.card k{
+    border-radius: 40px;
+    background-color: rgb(243, 243, 243);
+    width: 370px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+.card k:hover{
+    background-color: rgb(243, 243, 243);
+}
