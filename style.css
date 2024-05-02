@@ -11,7 +11,8 @@ body{
 
 header img{
     height:280px;
-    
+    display: block;
+    margin: 0;
 }
 main img{
     height: 260px;
