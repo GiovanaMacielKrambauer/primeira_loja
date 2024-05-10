@@ -49,7 +49,7 @@ form{
 
 .btn{
     padding: 15px;
-    color: #000000;
+    color: #000;
     font-weight: 600;
     border: none;
     margin-top: 20px; 
@@ -57,6 +57,7 @@ form{
     background-color: rgb(4, 75, 4);
     cursor: pointer;
     transition: all linear 190ms;
+    
 }
 
 .btn:hover{
@@ -75,12 +76,12 @@ p{
 
 a{
     font-size: 0.9em;
-    color: #1814f7;
+    color: #7712bb;
     text-decoration: none;
 }
 
 h2{
     font-size: 1.8em;
     font-weight: 600;
-    color: #444;
+    color: #666;
 }

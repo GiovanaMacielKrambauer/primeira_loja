@@ -24,8 +24,9 @@ header{
     
 }
 aside{
-    background-color: rgb(37, 77, 163);
+    background-color: #666;
     grid-area: secu;
+    padding: 20px;
 }
 main{
     background-color: darkgrey;
