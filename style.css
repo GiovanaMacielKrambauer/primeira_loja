@@ -12,12 +12,81 @@ body{
 header img{
     height:280px;
     display: block;
-    margin: 0;
+    margin: 0 auto;
+    display: center;
+    width: 300px;
 }
 main img{
     height: 260px;
 
 }
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+Logo Menu{
+    Height: 300px;
+}
+ul{
+    list-style: none;
+}
+
+header img{
+    width: 40px;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+Body{
+    font-size: arial;
+}
+
+
+nav
+{
+    background-color: rgba(16, 16, 16,.5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+}
+ul{
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+a{
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(176, 224, 230);
+    color: black;
+}
+
+label{
+    padding: 15px;
+    position: absolute;
+    /*z-index: 1;*/
+}
+
+
 header{
     background-color: rgb(9, 35, 70);
     grid-area: cabe;
