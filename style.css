@@ -1,4 +1,3 @@
-
 body{
     display: grid;
     grid-template-areas:
@@ -10,27 +9,37 @@ body{
 }
 
 header{
-    background-color: rgb(9, 35, 70);
+    background-color: rgb(18, 18, 19);
     grid-area: cabe;
     
 }
+header img{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
 aside{
-    background-color: #666;
-    grid-area: secu;
-    padding: 20px;
+    display: grid;
+    background-color: rgb(49, 49, 49);
+    padding: 30px;
+}
+
+.card img {max-width: 300px;
+   width: 300px;
+   height: 380px;
 }
 main{
-    background-color: darkgrey;
-    grid-area: prin;
+    background-color: rgb(71, 71, 71);
 }
 footer{
-   background-color: rgba(51, 49, 49, 0.719);
-   grid-area: roda;
+    background-color: rgb(20, 20, 20);
+    display: grid;
+    width: 500px;
 }
 
 @media only screen and (max-width: 800px) {
     body{
-        grid-template-areas:
+        grid-template-areas: 
         "cabe"
         "secu"
         "prin"
@@ -40,26 +49,194 @@ footer{
     }
 }
 
-.caixamae{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.caixapai{
+.caixa{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.card{
+.card a {
     display: flex;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    width: 20px;
-    height: 30px;
+    width: 370px;
+    height: 380px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 50px;
     transition: 0.8s;
+}
+
+.card a:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.card b{
+    border-radius: 40px;
+    background-color: rgb(224, 215, 215);
+    display: block;
+    height: 45px;
+    width: 155px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+}
+
+.card b:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.card c{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+
+.card c:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.card d{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+
+.card d:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.card e{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+
+.card e:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.card f{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+
+.card f:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.card g{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+
+.card g:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.card h{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+
+.card h:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.card i{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+
+.card i:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.card j{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+
+.card j:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.card k{
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 370px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    transition: 0.8s;
+}
+
+.card k:hover{
+    background-color: rgb(243, 243, 243);
 }
