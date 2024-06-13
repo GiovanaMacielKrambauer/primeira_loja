@@ -1,3 +1,4 @@
+/*inicio do Body*/
 body{
     display: grid;
     grid-template-areas:
@@ -7,40 +8,58 @@ body{
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr 3fr;
 }
+/*Fim do Body*/
 
+/*Inicio do Header*/
 header{
     background-color: rgb(0, 0, 0);
     grid-area: cabe;
-    height: 280px;
-    
+    height: 280px;    
 }
+/*Fim do Header*/
+
+/*Inicio do Header Img*/
 header img{
     display: block;
     margin: auto;
     width: 300px;
 }
+/*Fim do Header Img*/
 
+/*Inicio do Login*/
 .login{
     background-color: white;
 }
+/*Fim do Login*/
 
+/*Inicio do Aside*/
 aside{
     background-color: rgb(227, 227, 227);
     padding: 30px;
 }
+/*Fim do Aside*/
 
+/*Inicio do Card Img*/
 .card img {max-width: 300px;
    width: 300px;
    height: 380px;
 }
+/*Fim do Card Img*/
+
+/*Inicio do Main*/
 main{
     background-color: rgb(231, 231, 231);
 }
+/*Fim do Main*/
+
+/*Inicio do Footer*/
 footer{
     background-color: rgb(0, 0, 0);
     width: 500px;
 }
+/*Fim do Footer*/
 
+/*Inicio do Media Screen*/
 @media only screen and (max-width: 800px) {
     body{
         grid-template-areas: 
@@ -52,13 +71,19 @@ footer{
         grid-template-columns: 1fr 2fr;
     }
 }
+/*Fim do Media Screen*/
 
+/*Inicio da Caixa*/
 .caixa{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+/*Fim da Caixa*/
 
+/*Inicio dos Cards*/
+
+/*Inicio do Card a*/
 .card a {
     display: flex;
     border-radius: 5px;
@@ -71,11 +96,15 @@ footer{
     margin: 50px;
     transition: 0.8s;
 }
+/*Fim do Card a*/
 
+/*Inicio do Card a:Hover*/
 .card a:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card a:Hover*/
 
+/*Inicio do Card b*/
 .card b{
     border-radius: 40px;
     background-color: rgb(224, 215, 215);
@@ -87,11 +116,15 @@ footer{
     color: rgb(0, 0, 0);
     transition: 0.8s;
 }
+/*Fim do Card b*/
 
+/*Inicio do Card b:Hover*/
 .card b:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card b:Hover*/
 
+/*Inicio do Card c*/
 .card c{
     display: flex;
     border-radius: 5px;
@@ -104,11 +137,15 @@ footer{
     margin: 50px;
     transition: 0.8s;
 }
+/*Fim do Card c*/
 
+/*Inicio do Card c:Hover*/
 .card c:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card c:Hover*/
 
+/*Inicio do Card d*/
 .card d{
     display: flex;
     border-radius: 5px;
@@ -121,11 +158,15 @@ footer{
     margin: 50px;
     transition: 0.8s;
 }
+/*Fim do Card d*/
 
+/*Inicio do Card d:Hover*/
 .card d:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card d:Hover*/
 
+/*Inicio do Card e*/
 .card e{
     display: flex;
     border-radius: 5px;
@@ -138,11 +179,15 @@ footer{
     margin: 50px;
     transition: 0.8s;
 }
+/*Fim do Card e*/
 
+/*Inicio do Card e:Hover*/
 .card e:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card e:Hover*/
 
+/*Inicio do Card f*/
 .card f{
     display: flex;
     border-radius: 5px;
@@ -155,11 +200,15 @@ footer{
     margin: 50px;
     transition: 0.8s;
 }
+/*Fim do Card f*/
 
+/*Inicio do Card f:hover*/
 .card f:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card f:hover*/
 
+/*Inicio do Card g*/
 .card g{
     display: flex;
     border-radius: 5px;
@@ -172,11 +221,15 @@ footer{
     margin: 50px;
     transition: 0.8s;
 }
+/*Fim do Card g*/
 
+/*Inicio do Card g:Hover*/
 .card g:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card g:Hover*/
 
+/*Inicio do Card h*/
 .card h{
     display: flex;
     border-radius: 5px;
@@ -189,11 +242,15 @@ footer{
     margin: 50px;
     transition: 0.8s;
 }
+/*Fim do Card h*/
 
+/*Inicio do Card h:hover*/
 .card h:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card h:hover*/
 
+/*Inicio do Card i*/
 .card i{
     display: flex;
     border-radius: 5px;
@@ -206,11 +263,15 @@ footer{
     margin: 50px;
     transition: 0.8s;
 }
+/*Fim do Card i*/
 
+/*Inicio do Card i:Hover*/
 .card i:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card i:Hover*/
 
+/*Inicio do Card j*/
 .card j{
     display: flex;
     border-radius: 5px;
@@ -223,11 +284,15 @@ footer{
     margin: 50px;
     transition: 0.8s;
 }
+/*Fim do Card j*/
 
+/*Inicio do Card j:Hover*/
 .card j:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card j:Hover*/
 
+/*Inicio do Card k*/
 .card k{
     display: flex;
     border-radius: 5px;
@@ -240,7 +305,10 @@ footer{
     margin: 50px;
     transition: 0.8s;
 }
+/*Fim do Card k*/
 
+/*Inicio do Card k:Hover*/
 .card k:hover{
     background-color: rgb(243, 243, 243);
 }
+/*Fim do Card k:Hover*/
