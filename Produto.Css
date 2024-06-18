@@ -56,7 +56,6 @@ body {
 
 .product-details .buy-button:hover {
     background-color: #fff;
-    transition: 0.5s;
 }
 
 @Media only screen and (Max-width: 800px) {
