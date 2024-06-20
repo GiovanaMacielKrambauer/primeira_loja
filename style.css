@@ -13,7 +13,7 @@ body{
 
 /*Inicio do Header*/
 header{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(0, 0, 0);
     grid-area: cabeca;
     height: 280px;    
 }
@@ -23,6 +23,7 @@ header{
 header img{
     display: block;
     width: 300px;
+    
 }
 /*Fim do Header Img*/
 
@@ -43,7 +44,7 @@ aside{
 /*Inicio do Card Img*/
 .card img {
    width: 200px;
-   height: 200px;
+   height: 120px;
 }
 /*Fim do Card Img*/
 
@@ -103,8 +104,8 @@ footer{
 .card a{
     text-decoration: none;
     display: block;
-    background-color: blueviolet;
-    color: rgb(255, 0, 221);
+    background-color: rgb(26, 124, 6);
+    color: rgb(63, 63, 63);
     width: 200px;
     padding: 20px;
     border-radius: 20px;
