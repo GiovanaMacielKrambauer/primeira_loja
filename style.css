@@ -58,6 +58,13 @@ main{
 /*Inicio do Footer*/
 footer{
     grid-area: pé;
+    background-color: rgb(0, 0, 0);
+    height: 280px;
+    width: auto;
+}
+
+footer img{
+    display: block;
 }
 /*Fim do Footer*/
 
@@ -114,6 +121,11 @@ footer{
     box-shadow: 2px 2px 2px black;
 }
 
+.card :hover{
+    background-color: rgb(42, 139, 15);
+    transition: 0.7s;
+}
+
 li{
     color: aliceblue;
 }
@@ -132,3 +144,4 @@ li{
     color: rgb(58, 58, 58);
     margin-bottom: 5px;
 }
+/*Fim dos Card*/
